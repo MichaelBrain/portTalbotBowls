@@ -1,0 +1,103 @@
+@import '_variables';
+
+.home-header {
+    text-align: center;
+    border-bottom: solid 1px $border-color;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.home-header-heavy {
+    font-size: 9.5rem;
+    color: $text-color;
+    padding-bottom: 5px;
+}
+
+.home-header-light {
+    font-size: 3.5rem;
+    color: $text-color;
+    margin-top: -40px;
+}
+
+.profile {
+    text-align: -webkit-center;
+    top: -15px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: auto;
+    height: 100%;
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 15%;
+}
+
+.profile-avatar {
+    display: block;
+    width: 80%;
+    height: 80%;
+    border-radius: 15%;
+}
+
+.lpanel {
+    text-align: -webkit-center;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #fff;
+}
+
+.large-panel {
+    text-align: -webkit-center;
+    display: block;
+    width: 80%;
+    height: 80%;
+    border-radius: 15%;
+}
+
+img[alt="profile-avatar"] {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: all 2s ease;
+}
+
+img[alt="profile-avatar"]:hover {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.carousel {
+    width: 100%;
+    height: auto;
+}
+
+.carousel .item {
+    width: 100%;
+    height: auto;
+    background-color: #FFF;
+}
+
+#caponeCarousel {
+    width: 100%;
+    height: auto;
+}
+
+.panel {
+    text-align: -webkit-center;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 15%;
+}
+
+.panel-avatar {
+    display: block;
+    width: 80%;
+    height: 80%;
+    border-radius: 15%;
+}

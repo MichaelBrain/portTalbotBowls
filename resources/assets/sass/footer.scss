@@ -1,0 +1,65 @@
+@import '_variables';
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-top: solid 1px $border-color;
+    text-align: center;
+}
+
+.footer,.push { 
+    height: 75px; 
+}
+
+.footer-socials {
+    padding-bottom: 5px;
+    color: black;
+}
+
+.footer-text {
+    padding-bottom: 5px;
+    font-size: 12px;
+    color: black;
+}
+
+.footer-links {
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+
+.footer-copyright {
+   
+}
+
+.footer-companytext {
+    font-size: 8px;
+}
+
+.footer-socials > a {
+    text-decoration: none;
+    padding: 0px 5px 0px 5px;
+}
+
+.footer-socials > a:hover {
+    text-decoration: none;
+}
+
+.footer-links > a {
+    color: black;
+    text-decoration: none;
+    padding: 0px 15px 0px 15px;
+
+}
+
+.footer-links > a:hover {
+    color: #7A7A7A;
+    text-decoration: none;
+}
+
+.footer-copyright > a {
+    color: black;
+}
+
+.footer-copyright > a:hover {
+    color: #7A7A7A;
+}
