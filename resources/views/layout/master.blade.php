@@ -14,8 +14,8 @@
             <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
         @show
 
-        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
         
         <title>Port Talbot IBC</title>  
     </head>
