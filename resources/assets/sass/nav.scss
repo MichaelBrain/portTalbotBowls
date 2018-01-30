@@ -11,60 +11,31 @@ nav {
     font-size: 2.5rem;
 }
 
-#facebook {
-    color: #333399;
+.nav-link {
+    font-weight: 600;
 }
 
-#facebook:hover {
-    color: #3E3ED3;
+.dropdown-menu {
+    background-color: #101010;
+    color: white;
+    font-style: none;
+    font-weight: 200;
 }
 
-#instagram {
-    color:#990099;
+.dropdown-item {
+    display: block;
+    background-color: inherit;
+    color: white;
+    font-style: none;
+    padding: 5px;
+    margin-left: 10px;
 }
 
-#instagram:hover {
-    color: #E100E1;
+a.dropdown-item:hover {
+    color: white;
+    font-style: none;
 }
 
-.cart-dropdown {
-    width: 400px;
-}
-
-.table > tbody > tr > td {
-     vertical-align: middle;
-     font-weight: normal;
-}
-
-.table > tbody > tr > th {
-    font-weight: bold;
-}
-
-.cart-partial-totals {
-    padding: 8px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    font-size: 20px;
-    font-weight: 700;
-    text-align: right;
-}
-
-.cart-partial-actions {
-    columns: 2;
-    padding: 8px;
-}
-
-.fa > span {
-    font-family: $font-family-sans-serif;
-}
-
-.basket-count {
-    position: relative;
-    left: -7px;
-    top: 7px;
-    font-size: 14px;
-    text-align: center;
-    font-weight: bold;
-    min-width: 20px;
-    padding: 1px 2px;
+.dropdown:hover .dropdown-menu {
+    display: block;
 }

@@ -5,61 +5,25 @@
     padding-bottom: 5px;
     border-top: solid 1px $border-color;
     text-align: center;
+    font-size: 1.25rem;
 }
 
 .footer,.push { 
     height: 75px; 
 }
 
-.footer-socials {
-    padding-bottom: 5px;
-    color: black;
+.social-link {
+    margin-bottom: 5px;
 }
 
-.footer-text {
-    padding-bottom: 5px;
-    font-size: 12px;
-    color: black;
+.fa-facebook-official {
+    color: #3b5998;
 }
 
-.footer-links {
-    padding-bottom: 5px;
-    font-size: 12px;
+ .fa-twitter {
+    color: #0084b4;
 }
 
-.footer-copyright {
-   
-}
-
-.footer-companytext {
-    font-size: 8px;
-}
-
-.footer-socials > a {
-    text-decoration: none;
-    padding: 0px 5px 0px 5px;
-}
-
-.footer-socials > a:hover {
-    text-decoration: none;
-}
-
-.footer-links > a {
-    color: black;
-    text-decoration: none;
-    padding: 0px 15px 0px 15px;
-
-}
-
-.footer-links > a:hover {
-    color: #7A7A7A;
-    text-decoration: none;
-}
-
-.footer-copyright > a {
-    color: black;
-}
-
-.footer-copyright > a:hover {
-    color: #7A7A7A;
+.col-sm-12 {
+    text-align: center;
 }

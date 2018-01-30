@@ -22,7 +22,7 @@
  
     <body>
         
-        <!-- @include('component.nav') -->
+        @include('component.nav')
 
         <div class="container content-container">
 
@@ -31,8 +31,8 @@
             <div class="push"></div>
         </div>
 
-        <!-- <footer class="footer">
+        <footer class="footer">
             @include('component.footer')
-        </footer> -->
+        </footer>
     </body>
 </html>
