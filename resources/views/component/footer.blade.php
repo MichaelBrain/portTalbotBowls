@@ -1,19 +1,14 @@
 @section('footer') 
-
-    <div class="col-sm-12 col-md-12 col-lg-12"> 
-        <p> Telephone: 01639-881425 </p>
-        <p> Email: PortTalbotIBC@gmail.com </p>
-
-        <div class="social-link">
-            <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+<div class="container">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="footer-text">
+            <div class="footer-copyright">
+                &copy; 2018, <a href="/" title=""> Port Talbot Indoor Bowls </a>
+            </div>
+            <div class="footer-companytext">
+                Website created by Mike Brain
+            </div>
         </div>
-
-        <div class="social-link">
-            <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-        </div>
-
-        <p></p>
-        Developed by Mike Brain
     </div>
-    
+</div>
 @show

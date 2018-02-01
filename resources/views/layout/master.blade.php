@@ -21,14 +21,16 @@
     </head>
  
     <body>
-        
-        @include('component.nav')
 
-        <div class="container content-container">
+        <div class="wrapper">
 
-            @yield('content')
+            @include('component.nav')
 
-            <div class="push"></div>
+            <div id="main" class="container .clear-top">
+
+                @yield('content')
+
+            </div>
         </div>
 
         <footer class="footer">

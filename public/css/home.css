@@ -1,6 +1,5 @@
 .overview-text {
   text-align: center;
-  font-size: 1.75rem;
 }
 
 .header-logo {
@@ -24,5 +23,28 @@
 .logo {
   width: 18rem;
   padding-bottom: 15px;
+}
+
+#clubUpdates {
+  margin-bottom: 15px;
+}
+
+.header {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.subHeader {
+  margin-top: 15px;
+}
+
+.homeLabel {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.updatestext {
+  margin-top: 5px;
+  font-size: 1.4rem;
 }
 

@@ -20,6 +20,22 @@ html, body {
     margin: 0;
 }
 
+.wrapper {
+    min-height: 100%;
+}
+
+#main {
+    overflow:auto;
+    padding-bottom: 40px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+    position: relative;
+    margin-top: -40px; /* negative value of footer height */
+    height: 40px;
+    clear:both;
+}
+
 .page-header {
     font-size: 3.5rem;
     font-weight: bold;
@@ -29,9 +45,7 @@ html, body {
 }
 
 .content-container {
-    min-height: 100%; 
-    margin-bottom: -75px;
-    padding-bottom: 20px;
+    font-size: 1.6rem;
 }
 
 .clickable {
