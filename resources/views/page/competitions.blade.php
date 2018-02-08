@@ -2,13 +2,13 @@
 
 @section('head')
 @parent
-    <link href="{{ asset('css/leagues.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/comps.css') }}" rel="stylesheet">
 @stop
 
 @section('content')
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <h1> Evening Leagues </h1>
+        <h1> Competitions </h1>
     </div>
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
@@ -17,5 +17,5 @@
 
         This screen will be with you soon, sorry for the inconvenience your patience is appreciated
     </div>
-</div>
+</div> 
 @stop

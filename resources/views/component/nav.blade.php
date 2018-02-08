@@ -1,5 +1,5 @@
 @section('nav') 
-<nav class="navbar sticky-top navbar-inverse bg-inverse">
+<nav class="navbar navbar-default navbar-static-top navbar-inverse">
     <div style="margin-left: 5%; margin-right: 5%;">
         <div>
             <button class="btn btn-primary navbar-toggle collapsed" type="button" style="float: left; margin-left: 5px;" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -30,51 +30,29 @@
                     <div class="card card-body">
                         <ul class="nav navbar-nav">
                             <li><a style="font-size: 2.5rem; color: orange;" href="{{ route('/') }}">PT INDOORS</a></li>
-                            <li class="nav-item dropdown disabled">
+                            <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Championship <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                Teams <i class="fa fa-angle-down" aria-hidden="true"></i>
                                 </a>
-                                <div class="dropdown-menu disabled" aria-labelledby="navbarDropdownMenuLink">
-                                    <a href="{{ route('ChampionshipTeam') }}"> <div class="dropdown-item"> Team </div> </a>
-                                    <a href="{{ route('ChampionshipFixturesAndResults') }}"> <div class="dropdown-item"> Fixtures & Results </div> </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a href="{{ route('page/championship') }}"> <div class="dropdown-item"> Championship </div> </a>
+                                    <a href="{{ route('page/merit') }}"> <div class="dropdown-item"> Merit </div> </a>
                                 </div>
                             </li>
-                            <li class="nav-item dropdown disabled">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Merit <i class="fa fa-angle-down" aria-hidden="true"></i>
-                                </a>
-                                <div class="dropdown-menu disabled" aria-labelledby="navbarDropdownMenuLink">
-                                    <a href="{{ route('MeritTeam') }}"> <div class="dropdown-item"> Team </div> </a>
-                                    <a href="{{ route('MeritFixturesAndResults') }}"> <div class="dropdown-item"> Fixtures & Results </div> </a>
-                                </div>
+                            <li class="nav-item">
+                                <a href="{{ route('competitions') }}"> Competitions </a>
                             </li>
-                            <li class="nav-item dropdown disabled">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Competitions <i class="fa fa-angle-down" aria-hidden="true"></i>
-                                </a>
-                                <div class="dropdown-menu disabled" aria-labelledby="navbarDropdownMenuLink">
-                                    <a href="{{ route('Singles') }}"> <div class="dropdown-item"> Singles </div> </a>
-                                    <a href="{{ route('Pairs') }}"> <div class="dropdown-item"> Paris </div> </a>
-                                    <a href="{{ route('Triples') }}"> <div class="dropdown-item"> Triples </div> </a>
-                                    <a href="{{ route('Fours') }}"> <div class="dropdown-item"> Fours </div> </a>
-                                    <a href="{{ route('Over50Triples') }}"> <div class="dropdown-item"> Over 50 Triples </div> </a>
-                                    <a href="{{ route('Over60s') }}"> <div class="dropdown-item"> Over 60s </div> </a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown disabled">
+                            <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Internal Leagues <i class="fa fa-angle-down" aria-hidden="true"></i>
                                 </a>
-                                <div class="dropdown-menu disabled" aria-labelledby="navbarDropdownMenuLink">
-                                    <a href="{{ route('AfternoonLeagues') }}"> <div class="dropdown-item"> Afternoon Leagues </div> </a>
-                                    <a href="{{ route('EveningLeagues') }}"> <div class="dropdown-item"> Evening Leagues </div> </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a href="{{ route('afternoonLeagues') }}"> <div class="dropdown-item"> Afternoon Leagues </div> </a>
+                                    <a href="{{ route('eveningLeagues') }}"> <div class="dropdown-item"> Evening Leagues </div> </a>
                                 </div>
                             </li>
-                            <li class="nav-item disabled">
-                                <a href="{{ route('Honours') }}"> Honours </a>
-                            </li>
-                            <li class="nav-item disabled">
-                                <a href="{{ route('Contact') }}"> Contact Us </a>
+                            <li class="nav-item">
+                                <a href="{{ route('honours') }}"> Honours </a>
                             </li>
                         </ul>
                     </div>

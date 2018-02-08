@@ -1,0 +1,31 @@
+.league-table {
+    border-bottom: solid 1px gray;
+}
+
+th {
+    padding-bottom: 5px; 
+}
+
+.league-table td {
+    padding-right: 5px;
+    margin: 2px;
+    border-right: solid 1px gray;
+}
+
+.team td {
+    border: solid 1px grey;
+    padding-right: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+#rink {
+    padding-top: 5px;
+}
+
+.rink-players {
+    border-top: solid 1px orange;
+    padding-top: 5px;
+}

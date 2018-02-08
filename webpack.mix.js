@@ -18,3 +18,4 @@ mix
 .sass('resources/assets/sass/nav.scss', 'public/css')
 .sass('resources/assets/sass/footer.scss', 'public/css')
 .sass('resources/assets/sass/home.scss', 'public/css')
+.sass('resources/assets/sass/teams.scss', 'public/css')

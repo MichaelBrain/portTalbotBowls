@@ -27,15 +27,6 @@ nav {
   margin-left: 10px;
 }
 
-a.dropdown-item:hover {
-  color: white;
-  font-style: none;
-}
-
-.dropdown:hover .dropdown-menu {
-  display: block;
-}
-
 .socials {
   margin-top: 10px;
   float: right;
@@ -46,5 +37,23 @@ a.dropdown-item:hover {
   margin-right: 5px;
   margin-left: 5px;
   display: inline-block;
+}
+
+.fa {
+  color: orange;
+}
+
+.fa:hover {
+  text-decoration: none;
+  font-style: none;
+  color: orangered;
+}
+
+.fa-angle-down {
+  color: grey;
+}
+
+.fa-angle-down:hover {
+  color: white;
 }
 
