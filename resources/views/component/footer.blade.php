@@ -61,7 +61,7 @@
             <div> 
                 <a href="http://www.welshindoorbowls.com/"> <span> Welsh Indoor Bowls</span> </a></br>
                 <a href="http://www.wliba.com/"> <span> Welsh Ladies Indoor Bowls</span> </a></br>
-                <a href="https://www.biibc.org.uk/"> <span> British Ilse Indoor Bolws Council</span> </a></br>
+                <a href="https://www.biibc.org.uk/"> <span> British Isle Indoor Bolws Council</span> </a></br>
             </div>
         </div>
     </div>
