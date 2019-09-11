@@ -1,1 +1,74 @@
-.footer{padding-top:10px;padding-bottom:5px;border-top:1px solid #e6e5e5;text-align:center}.footer,.push{height:75px}.footer-socials,.footer-text{padding-bottom:5px;color:#000}.footer-links,.footer-text{font-size:12px}.footer-links{padding-bottom:5px}.footer-companytext{font-size:8px}.footer-socials>a{padding:0 5px}.footer-links>a,.footer-socials>a,.footer-socials>a:hover{text-decoration:none}.footer-links>a{color:#000;padding:0 15px}.footer-links>a:hover{color:#7a7a7a;text-decoration:none}.footer-copyright>a{color:#000}.footer-copyright>a:hover{color:#7a7a7a}
+.footer {
+  border-top: solid 1px #e6e5e5;
+  background-color: #EFEFEF;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.footer-text {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: black;
+}
+
+.footer-links {
+  padding-bottom: 5px;
+}
+
+span {
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+a {
+  font-style: none;
+}
+
+#footer {
+  margin-top: 10px;
+  border-top: solid 1px #AEAEAE;
+}
+
+.fa-phone-square {
+  color: grey;
+}
+
+.fa-envelope {
+  color: grey;
+}
+
+.fa-phone-square:hover {
+  color: grey;
+}
+
+.fa-envelope:hover {
+  color: grey;
+}
+
+.fa-twitter-square {
+  color: #0084b4;
+}
+
+.fa-twitter-square:hover {
+  color: #0084b4;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+
+.fa-facebook-square:hover {
+  color: #3b5998;
+}
+
+#location-footer {
+  color: #3E963E;
+}
+
+#location-footer:hover {
+  color: #3E963E;
+}
+

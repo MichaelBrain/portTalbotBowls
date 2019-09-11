@@ -1,12 +1,4 @@
-.home-header{text-align:center;border-bottom:1px solid #e6e5e5;margin-bottom:30px;padding-bottom:10px}
-.home-header-heavy{font-size:4.5rem;color:#636b6f;padding-bottom:5px}
-.home-header-light{font-size:3.5rem;color:#636b6f;margin-top:-40px}
-img{width:12em;height:auto}
-
-.social-link {
-    padding-top: 35px; display: inline-block;
+.header-logo {
+  margin-top: 10px;
 }
 
-.social-icon {
-    width:3.5rem; height:auto; margin-right: 10px; margin-left: 10px;
-}

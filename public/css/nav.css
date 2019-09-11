@@ -1,0 +1,59 @@
+nav {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+.dropdown-menu {
+  background-color: #101010;
+  color: white;
+  font-style: none;
+  font-weight: 200;
+}
+
+.dropdown-item {
+  display: block;
+  background-color: inherit;
+  color: white;
+  font-style: none;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.socials {
+  margin-top: 10px;
+  float: right;
+  display: block;
+}
+
+.social-link {
+  margin-right: 5px;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.fa {
+  color: orange;
+}
+
+.fa:hover {
+  text-decoration: none;
+  font-style: none;
+  color: orangered;
+}
+
+.fa-angle-down {
+  color: grey;
+}
+
+.fa-angle-down:hover {
+  color: white;
+}
+

@@ -1,65 +1,80 @@
 @import '_variables';
 
 .footer {
-    padding-top: 10px;
-    padding-bottom: 5px;
     border-top: solid 1px $border-color;
+    background-color: #EFEFEF;
     text-align: center;
-}
-
-.footer,.push { 
-    height: 75px; 
-}
-
-.footer-socials {
-    padding-bottom: 5px;
-    color: black;
+    font-size: 1.3rem;
 }
 
 .footer-text {
+    padding-top: 10px;
     padding-bottom: 5px;
-    font-size: 12px;
     color: black;
 }
 
 .footer-links {
     padding-bottom: 5px;
-    font-size: 12px;
-}
-
-.footer-copyright {
-   
 }
 
 .footer-companytext {
-    font-size: 8px;
+    
 }
 
-.footer-socials > a {
-    text-decoration: none;
-    padding: 0px 5px 0px 5px;
+span {
+    font-weight: bold;
 }
 
-.footer-socials > a:hover {
-    text-decoration: none;
+h4 {
+    font-weight: bold;
 }
 
-.footer-links > a {
-    color: black;
-    text-decoration: none;
-    padding: 0px 15px 0px 15px;
-
+a {
+    font-style: none;
 }
 
-.footer-links > a:hover {
-    color: #7A7A7A;
-    text-decoration: none;
+#footer {
+    margin-top: 10px;
+    border-top: solid 1px #AEAEAE;
 }
 
-.footer-copyright > a {
-    color: black;
+.fa-phone-square {
+    color: grey;
 }
 
-.footer-copyright > a:hover {
-    color: #7A7A7A;
+.fa-envelope {
+    color: grey;
 }
+
+.fa-phone-square:hover {
+    color: grey;
+}
+
+.fa-envelope:hover {
+    color: grey;
+}
+
+.fa-twitter-square {
+    color: #0084b4;
+}
+
+.fa-twitter-square:hover {
+    color: #0084b4;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+#location-footer {
+    color: #3E963E;
+}
+
+#location-footer:hover {
+    color: #3E963E;
+}
+
